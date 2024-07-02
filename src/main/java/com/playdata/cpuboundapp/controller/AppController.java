@@ -21,7 +21,12 @@ public class AppController {
 
     @RequestMapping("/hello")
     public String hello() {
-        return "webhook test dddddd!!!!!";
+        return "webhook test !!!";
+    }
+
+     @RequestMapping("/teset")
+    public String test() {
+        return " test";
     }
 
     private String getMD5Digest(String input) throws NoSuchAlgorithmException {
